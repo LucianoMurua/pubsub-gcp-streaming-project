@@ -2,6 +2,7 @@
 This demo project uses Pub/Sub and Dataflow to stream data in real-time to BigQuery.
 
 ## Diagram
+![pubsub_gcp_diagram drawio](https://github.com/user-attachments/assets/b1bd5ef9-1fbb-44e3-8c4a-75a77482a246)
 
 
 ## How it works

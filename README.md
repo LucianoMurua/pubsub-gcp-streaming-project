@@ -1,4 +1,4 @@
-# Streaming project in GCP
+# Data Streaming Project in GCP
 This demo project uses Pub/Sub and Dataflow to stream data in real-time to BigQuery.
 
 ## Architecture

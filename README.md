@@ -2,7 +2,8 @@
 This demo project uses Pub/Sub and Dataflow to stream data in real-time to BigQuery.
 
 ## Architecture
-![pubsub_gcp_diagram drawio](https://github.com/user-attachments/assets/b1bd5ef9-1fbb-44e3-8c4a-75a77482a246)
+![pubsub_gcp_diagram drawio (1)](https://github.com/user-attachments/assets/b1316c34-a798-4ffe-9df4-d04a922027e2)
+
 
 ## Technology used
 
@@ -49,5 +50,5 @@ An overview of the irctc-pubsub-to-bigquery-dev job. This was created from the D
 
 
 #### BigQuery
-
-
+Target table:
+![image](https://github.com/user-attachments/assets/c65b3a00-9096-4e74-a120-239c3864c4d0)

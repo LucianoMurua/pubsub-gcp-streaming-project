@@ -24,3 +24,8 @@ First, clone this repository using Cloud Shell with the following command: git c
 1) bigquery_create_table.sql: This script runs directly in BigQuery to create the target table.
 2) irctc_mock_data_to_pubsub.py: Python function named "generate_mock_data" defines a dictionary with random messages. Next, "publish_to_pubsub" function publishes data to Pub/Sub.
 3) transform_udf.py: In this script the cleaning and validation of the data is carried out.
+
+## How it looks
+
+#### Publisher
+![image](https://github.com/user-attachments/assets/733e8db3-9d89-48a0-864d-d1faf7be688e)

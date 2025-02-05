@@ -1,9 +1,20 @@
 # Streaming project in GCP
 This demo project uses Pub/Sub and Dataflow to stream data in real-time to BigQuery.
 
-## Diagram
+## Architecture
 ![pubsub_gcp_diagram drawio](https://github.com/user-attachments/assets/b1bd5ef9-1fbb-44e3-8c4a-75a77482a246)
 
+## Technology used
+
+### Programming Language
+- Python
+- SQL
+
+### Google Cloud Platform
+- Cloud Shell
+- Pub/Sub
+- Dataflow
+- BigQuery
 
 ## How it works
 

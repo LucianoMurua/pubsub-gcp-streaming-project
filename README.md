@@ -27,5 +27,23 @@ First, clone this repository using Cloud Shell with the following command: git c
 
 ## How it looks
 
-#### Publisher
+### Cloud Shell
+irctc_mock_data_to_pubsub.py script (publisher) runs in Cloud Shell:
 ![image](https://github.com/user-attachments/assets/733e8db3-9d89-48a0-864d-d1faf7be688e)
+
+### Pub/Sub
+Messages generated in previous step are published to a Pub/Sub topic named irctc-data, and then pull the mentioned messages from irctc-data-sub subscription:
+![image](https://github.com/user-attachments/assets/b7150765-4ecc-4dbd-bc9d-391ae5a80d92)
+
+### Cloud Storage
+Transformation script that uses Dataflow in next step:
+![image](https://github.com/user-attachments/assets/86813fc3-8b5c-4139-b610-a6222dba13a2)
+
+
+### Dataflow
+An overview of the irctc-pubsub-to-bigquery-dev job. This was created from the Dataflow template named "Pub/Sub to BigQuery with Python UDFs"
+![image](https://github.com/user-attachments/assets/3765aa93-83cf-49d0-af19-691a94087ee1)
+
+#### BigQuery
+
+
